@@ -1,0 +1,64 @@
+body {
+  background-color: #c782eb;
+  font-family: Arial, sans-serif;
+}
+
+#profile-card {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  border-radius: 8px;
+  background-color: #fff45c;
+  color: #000000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+#toggle-theme-btn {
+  margin-bottom: 12px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-theme {
+  background-color: #1a1a2e !important;
+  color: #e0e0e0 !important;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.6);
+}
+
+.dark-theme h2,
+.dark-theme h3,
+.dark-theme p,
+.dark-theme li {
+  color: #e0e0e0;
+}
+
+.dark-theme #toggle-theme-btn {
+  background-color: #e0e0e0;
+  color: #1a1a2e;
+}
+
+.dark-theme input {
+  background-color: #e3e3ea;
+  color: #e0e0e0;
+  border: 1px solid #555;
+}
+
+#skills-list li {
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+#skill-count {
+  display: inline-block ;
+  padding: 4px 8px;
+  background: linear-gradient(135deg, #a84da7, #febc6c);
+  font-size: 1em;
+  color: #060000;
+  margin-bottom: 6px;
+  border-radius: 20px;
+}
